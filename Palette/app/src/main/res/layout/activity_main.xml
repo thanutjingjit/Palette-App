@@ -79,7 +79,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/tvColor"
+        android:id="@+id/tvShowing"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="#ebe1dd"
@@ -96,8 +96,9 @@
         android:layout_height="wrap_content"
         android:text="//RGB"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/tvColor"
-        android:layout_alignLeft="@id/tvColor"/>
+        android:layout_below="@id/tvShowing"
+        android:layout_alignLeft="@id/tvShowing"
+        android:id="@+id/tvRGB"/>
 
 </RelativeLayout>
 
